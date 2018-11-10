@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_mcphs_marketing_marketing" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Critical</label>
+            <language>en</language>
+            <name>x_mcphs_marketing_marketing</name>
+            <sequence>0</sequence>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55d2940cdb35eb40f632de82ca9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <u_memorize>false</u_memorize>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - High</label>
+            <language>en</language>
+            <name>x_mcphs_marketing_marketing</name>
+            <sequence>1</sequence>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95d2940cdb35eb40f632de82ca9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <u_memorize>false</u_memorize>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Moderate</label>
+            <language>en</language>
+            <name>x_mcphs_marketing_marketing</name>
+            <sequence>2</sequence>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15d2940cdb35eb40f632de82ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <u_memorize>false</u_memorize>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Low</label>
+            <language>en</language>
+            <name>x_mcphs_marketing_marketing</name>
+            <sequence>3</sequence>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91d2940cdb35eb40f632de82ca9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <u_memorize>false</u_memorize>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - Planning</label>
+            <language>en</language>
+            <name>x_mcphs_marketing_marketing</name>
+            <sequence>4</sequence>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11d2940cdb35eb40f632de82ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <u_memorize>false</u_memorize>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <name>x_mcphs_marketing_marketing</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>51d2940cdb35eb40f632de82ca9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>priority</sys_name>
+            <sys_package display_value="Marketing" source="x_mcphs_marketing">a8ed4444db35eb40f632de82ca96199a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
+            <sys_update_name>sys_choice_x_mcphs_marketing_marketing_priority</sys_update_name>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

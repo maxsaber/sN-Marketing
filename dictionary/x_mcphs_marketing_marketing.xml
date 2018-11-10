@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Marketing" max_length="40" name="x_mcphs_marketing_marketing" type="collection">
+    <element audit="true" label="Marketing" max_length="40" name="x_mcphs_marketing_marketing" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element label="Not Yet Requested" sequence="0" value="1"/>
+                <element label="Requested" sequence="1" value="2"/>
+                <element label="Approved" sequence="2" value="3"/>
+                <element label="Rejected" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element dependent="group" dependent_on_field="group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element label="w-cc" sequence="0" value="Web - Content Changes"/>
+                <element label="Choice 2" sequence="1" value="Web - Add new page"/>
+                <element label="Choice 3" sequence="2" value="Web - Remove page"/>
+            </choice>
+        </element>
+        <element label="Additional Information" max_length="4000" name="comments" type="journal"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element default="4ac1868adb7c2700f632de82ca961954" label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opened By" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Opened" max_length="40" name="open_datetime" read_only="true" type="glide_date_time"/>
+        <element choice="3" default="5" label="Priority" max_length="40" name="priority" type="integer">
+            <choice>
+                <element label="1 - Critical" sequence="0" value="1"/>
+                <element label="2 - High" sequence="1" value="2"/>
+                <element label="3 - Moderate" sequence="2" value="3"/>
+                <element label="4 - Low" sequence="3" value="4"/>
+                <element label="5 - Planning" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="160" name="short_description" type="string"/>
+        <element choice="3" default="1" label="State" mandatory="true" max_length="40" name="state" type="integer">
+            <choice>
+                <element label="New" sequence="0" value="1"/>
+                <element label="Active" sequence="1" value="3"/>
+                <element label="Awaiting User Info" sequence="2" value="5"/>
+                <element label="Ready for User Approval" sequence="3" value="7"/>
+                <element label="Resolved" sequence="4" value="9"/>
+                <element label="Closed" sequence="5" value="11"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="requestor"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index4">
+            <element name="group"/>
+        </index>
     </element>
 </database>
