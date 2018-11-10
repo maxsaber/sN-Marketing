@@ -5,42 +5,44 @@
         <application display_value="Marketing-Application">5f44144cdb35eb40f632de82ca96199f</application>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_mcphs_marketing_marketing">state=9^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="9"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
         <mobile_app_module/>
-        <mobile_title>Marketing</mobile_title>
+        <mobile_title>Resolved</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_mcphs_marketing_marketing</name>
-        <order/>
+        <order>500</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_mcphs_marketing.itil</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>max.saber</sys_created_by>
-        <sys_created_on>2018-11-10 19:26:42</sys_created_on>
+        <sys_created_on>2018-11-10 20:04:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f8ed4c48db35eb40f632de82ca9619db</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_id>6576148cdb35eb40f632de82ca96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Marketing" source="x_mcphs_marketing">a8ed4444db35eb40f632de82ca96199a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
-        <sys_update_name>sys_app_module_f8ed4c48db35eb40f632de82ca9619db</sys_update_name>
+        <sys_update_name>sys_app_module_6576148cdb35eb40f632de82ca96196a</sys_update_name>
         <sys_updated_by>max.saber</sys_updated_by>
-        <sys_updated_on>2018-11-10 19:55:58</sys_updated_on>
+        <sys_updated_on>2018-11-10 20:04:47</sys_updated_on>
         <timeline_page/>
-        <title>All</title>
+        <title>Resolved</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <view_on_mobile>false</view_on_mobile>
