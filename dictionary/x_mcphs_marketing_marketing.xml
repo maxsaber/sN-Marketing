@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" label="Marketing" max_length="40" name="x_mcphs_marketing_marketing" type="collection">
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Approval" max_length="40" name="approval" type="string">
             <choice>
                 <element label="Not Yet Requested" sequence="0" value="1"/>
