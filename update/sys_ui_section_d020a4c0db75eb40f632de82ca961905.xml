@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="History" section_id="d020a4c0db75eb40f632de82ca961905" sys_domain="global" table="x_mcphs_marketing_marketing" version="3" view="ess">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>History</caption>
+            <header>false</header>
+            <name>x_mcphs_marketing_marketing</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 20:46:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d020a4c0db75eb40f632de82ca961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>History</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing" source="x_mcphs_marketing">a8ed4444db35eb40f632de82ca96199a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
+            <sys_update_name>sys_ui_section_d020a4c0db75eb40f632de82ca961905</sys_update_name>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 20:46:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">5fda25324f233100b05a5fde0310c72d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

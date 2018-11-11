@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" label="Marketing" max_length="40" name="x_mcphs_marketing_marketing" type="collection">
+    <element attributes="detail_row=short_description" audit="true" label="Marketing" max_length="40" name="x_mcphs_marketing_marketing" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Approval" max_length="40" name="approval" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Approval" max_length="40" name="approval" read_only="true" type="string">
             <choice>
                 <element label="Not Yet Requested" sequence="0" value="1"/>
                 <element label="Requested" sequence="1" value="2"/>
@@ -13,17 +13,17 @@
         <element dependent="group" dependent_on_field="group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
             <choice>
-                <element label="w-cc" sequence="0" value="Web - Content Changes"/>
-                <element label="Choice 2" sequence="1" value="Web - Add new page"/>
-                <element label="Choice 3" sequence="2" value="Web - Remove page"/>
+                <element label="Web - Content Changes" sequence="0" value="Web - Content Changes"/>
+                <element label="Web - Add new page" sequence="1" value="Web - Add new page"/>
+                <element label="Web - Remove page" sequence="2" value="Web - Remove page"/>
             </choice>
         </element>
         <element label="Additional Information" max_length="4000" name="comments" type="journal"/>
         <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
         <element default="4ac1868adb7c2700f632de82ca961954" label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Opened By" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference"/>
-        <element label="Opened" max_length="40" name="open_datetime" read_only="true" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened By" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="timeDimension=true" default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Opened" max_length="40" name="open_datetime" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
         <element choice="3" default="5" label="Priority" max_length="40" name="priority" type="integer">
             <choice>
                 <element label="1 - Critical" sequence="0" value="1"/>
@@ -33,9 +33,9 @@
                 <element label="5 - Planning" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="160" name="short_description" type="string"/>
-        <element choice="3" default="1" label="State" mandatory="true" max_length="40" name="state" type="integer">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="detail_row,edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="160" name="short_description" type="string"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="integer">
             <choice>
                 <element label="New" sequence="0" value="1"/>
                 <element label="Active" sequence="1" value="3"/>

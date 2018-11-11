@@ -5,13 +5,13 @@
             <element>comments</element>
             <position>0</position>
             <sys_created_by>max.saber</sys_created_by>
-            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
-            <sys_id>9dd2d40cdb35eb40f632de82ca961905</sys_id>
+            <sys_created_on>2018-11-10 21:40:09</sys_created_on>
+            <sys_id>676ca44cdb75eb40f632de82ca96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Communication" display_value="Communication" name="x_mcphs_marketing_marketing" sys_domain="global" view="Default view">b8d2540cdb35eb40f632de82ca96197d</sys_ui_section>
             <sys_updated_by>max.saber</sys_updated_by>
-            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <sys_updated_on>2018-11-10 21:40:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,15 +19,29 @@
             <element>work_notes</element>
             <position>1</position>
             <sys_created_by>max.saber</sys_created_by>
-            <sys_created_on>2018-11-10 19:48:19</sys_created_on>
-            <sys_id>11d2d40cdb35eb40f632de82ca961906</sys_id>
+            <sys_created_on>2018-11-10 21:40:09</sys_created_on>
+            <sys_id>e76ca44cdb75eb40f632de82ca96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Communication" display_value="Communication" name="x_mcphs_marketing_marketing" sys_domain="global" view="Default view">b8d2540cdb35eb40f632de82ca96197d</sys_ui_section>
             <sys_updated_by>max.saber</sys_updated_by>
-            <sys_updated_on>2018-11-10 19:48:19</sys_updated_on>
+            <sys_updated_on>2018-11-10 21:40:09</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 21:40:09</sys_created_on>
+            <sys_id>6b6ca44cdb75eb40f632de82ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Communication" display_value="Communication" name="x_mcphs_marketing_marketing" sys_domain="global" view="Default view">b8d2540cdb35eb40f632de82ca96197d</sys_ui_section>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 21:40:09</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Communication</caption>

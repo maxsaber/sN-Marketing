@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Communication" section_id="1c20a4c0db75eb40f632de82ca961904" sys_domain="global" table="x_mcphs_marketing_marketing" version="3" view="ess">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 21:39:47</sys_created_on>
+            <sys_id>4e5c644cdb75eb40f632de82ca9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication" display_value="Communication" name="x_mcphs_marketing_marketing" sys_domain="global" view="5fda25324f233100b05a5fde0310c72d">1c20a4c0db75eb40f632de82ca961904</sys_ui_section>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 21:39:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 21:39:47</sys_created_on>
+            <sys_id>065c644cdb75eb40f632de82ca9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Communication" display_value="Communication" name="x_mcphs_marketing_marketing" sys_domain="global" view="5fda25324f233100b05a5fde0310c72d">1c20a4c0db75eb40f632de82ca961904</sys_ui_section>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 21:39:47</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Communication</caption>
+            <header>false</header>
+            <name>x_mcphs_marketing_marketing</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>max.saber</sys_created_by>
+            <sys_created_on>2018-11-10 20:46:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c20a4c0db75eb40f632de82ca961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Communication</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing" source="x_mcphs_marketing">a8ed4444db35eb40f632de82ca96199a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
+            <sys_update_name>sys_ui_section_1c20a4c0db75eb40f632de82ca961904</sys_update_name>
+            <sys_updated_by>max.saber</sys_updated_by>
+            <sys_updated_on>2018-11-10 20:46:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">5fda25324f233100b05a5fde0310c72d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
