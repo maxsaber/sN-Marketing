@@ -7,7 +7,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Assigned to</column_label>
@@ -38,8 +38,11 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>roles=x_mcphs_marketing.itil^ORroles=x_mcphs_marketing.itil_admin^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">roles=x_mcphs_marketing.itil^ORroles=x_mcphs_marketing.itil_admin^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_mcphs_marketing.itil"/>
+            <item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="true" value="x_mcphs_marketing.itil_admin"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -49,15 +52,15 @@
         <sys_created_on>2018-11-10 19:48:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>74d2940cdb35eb40f632de82ca961935</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Assigned to</sys_name>
         <sys_package display_value="Marketing" source="x_mcphs_marketing">a8ed4444db35eb40f632de82ca96199a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
         <sys_update_name>sys_dictionary_x_mcphs_marketing_marketing_assigned_to</sys_update_name>
-        <sys_updated_by>max.saber</sys_updated_by>
-        <sys_updated_on>2018-11-10 21:44:43</sys_updated_on>
+        <sys_updated_by>m0366890</sys_updated_by>
+        <sys_updated_on>2018-12-03 18:07:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

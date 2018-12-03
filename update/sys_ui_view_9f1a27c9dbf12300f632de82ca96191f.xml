@@ -3,13 +3,13 @@
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>rpt-tempd3e8c1e68f1301000e5d9cfde0f9238amax.saber</name>
+        <name>rpt-tempcb3a09a68f1301000e5d9cfde0f92301_a05a7aba4f808200b05a5fde0310c776</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>max.saber</sys_created_by>
-        <sys_created_on>2018-11-13 02:18:08</sys_created_on>
+        <sys_created_on>2018-11-14 14:02:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>8b3f7fe8db392f40f632de82ca9619de</sys_id>
+        <sys_id>9f1a27c9dbf12300f632de82ca96191f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -18,8 +18,8 @@
         <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>max.saber</sys_updated_by>
-        <sys_updated_on>2018-11-13 02:18:08</sys_updated_on>
-        <title>Rpt-tempd3e8c1e68f1301000e5d9cfde0f9238amax.saber</title>
+        <sys_updated_on>2018-11-14 14:02:49</sys_updated_on>
+        <title>Rpt-tempcb3a09a68f1301000e5d9cfde0f92301_a05a7aba4f808200b05a5fde0310c776</title>
         <user/>
     </sys_ui_view>
 </record_update>

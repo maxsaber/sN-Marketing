@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_marketing_integrations" name="sn_dd_marketing_integrations">ab9ec253dbc22f00f632de82ca9619ea</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>max.saber</sys_created_by>
+        <sys_created_on>2018-12-03 17:25:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>239ec253dbc22f00f632de82ca9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ab9ec253dbc22f00f632de82ca9619ea</sys_name>
+        <sys_package display_value="Marketing" source="x_mcphs_marketing">a8ed4444db35eb40f632de82ca96199a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">a8ed4444db35eb40f632de82ca96199a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_239ec253dbc22f00f632de82ca9619ec</sys_update_name>
+        <sys_updated_by>max.saber</sys_updated_by>
+        <sys_updated_on>2018-12-03 17:25:05</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
