@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Marketing">36f63146db7c2700f632de82ca961965</application>
+        <application display_value="">36f63146db7c2700f632de82ca961965</application>
         <filter/>
         <name>Marketing</name>
         <order/>

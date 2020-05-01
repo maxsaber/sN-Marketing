@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="fcd2540cdb35eb40f632de82ca96197e" sys_domain="global" table="x_mcphs_marketing_marketing" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
